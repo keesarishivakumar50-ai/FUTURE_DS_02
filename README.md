@@ -1,4 +1,5 @@
 **🌍 Customer Marketing Performance Dashboard**
+
 **📊 Project Overview**
 
 This interactive Power BI dashboard explores customer demographics, spending patterns, and income distribution across different countries and education levels.

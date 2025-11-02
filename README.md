@@ -1,19 +1,19 @@
 # 🌍 Customer Marketing Performance Dashboard
 
-# 📊 Project Overview
+## 📊 Project Overview
 
 This interactive Power BI dashboard explores customer demographics, spending patterns, and income distribution across different countries and education levels.
 It helps identify how customer profiles and background factors (like age, education, and marital status) influence total income and purchasing behavior.
 
 ---
 
-# 🎯 Objective
+## 🎯 Objective
 
 To analyze customer data and provide key marketing insights through visual storytelling — enabling better targeting, segmentation, and campaign decisions.
 
 ---
 
-# 🧾 Dataset Information
+## 🧾 Dataset Information
 
 Source: CustomerMarketing.csv
 Rows: 2,240  Columns: 28
@@ -31,7 +31,7 @@ Purchases: NumWebPurchases, NumStorePurchases, NumCatalogPurchases
 ----
 
 # 📐 Dashboard Layout
-# 🧱 Page 1 – Overview
+## 🧱 Page 1 – Overview
 
 Filters: Marital Status, Country, Education, Year of Birth
 
@@ -55,7 +55,7 @@ Gauge: Count of Marital_Status
 
 Donut chart: Marital Status Distribution by Country
 
-# 🧱 Page 2 – Income Analysis
+## 🧱 Page 2 – Income Analysis
 
 Bar Chart: Sum of Income by Country
 
@@ -67,7 +67,7 @@ Line Chart: Sum of Income by Education and Year_Birth
 
 ---
 
-# 🧮 Key Measures Used
+## 🧮 Key Measures Used
 Measure	Description
 Total Customers	DISTINCTCOUNT(ID)
 Total Spendings	Sum of all product spending columns
@@ -78,7 +78,7 @@ Response Rate	DIVIDE(SUM(Response), [Total Customers])
 
 ---
 
-# 🎨 Design & Theme
+## 🎨 Design & Theme
 Element	Style
 Background	Dark Blue
 Visual Cards	Charcoal Gray
@@ -90,7 +90,7 @@ Visual Type Mix	Cards, Donuts, Gauges, Line & Bar Charts
 
 ---
 
-# 💡 Key Insights
+## 💡 Key Insights
 
 Spain (SP) contributes the highest income share among all countries.
 
@@ -102,7 +102,7 @@ Married customers and mid-aged graduates represent the strongest segment.
 
 ---
 
-# 🧰 Tools & Technologies
+## 🧰 Tools & Technologies
 
 Power BI Desktop – Data modeling and dashboard design
 

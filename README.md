@@ -4,9 +4,13 @@
 This interactive Power BI dashboard explores customer demographics, spending patterns, and income distribution across different countries and education levels.
 It helps identify how customer profiles and background factors (like age, education, and marital status) influence total income and purchasing behavior.
 
+---
+
 🎯 Objective
 
 To analyze customer data and provide key marketing insights through visual storytelling — enabling better targeting, segmentation, and campaign decisions.
+
+---
 
 🧾 Dataset Information
 
@@ -22,6 +26,8 @@ Financial: Income, Total Spending, Average Income
 Campaigns: AcceptedCmp1–5, Response, Complain
 
 Purchases: NumWebPurchases, NumStorePurchases, NumCatalogPurchases
+
+----
 
 📐 Dashboard Layout
 🧱 Page 1 – Overview
@@ -58,6 +64,8 @@ Bar Chart: Count of Education by Country
 
 Line Chart: Sum of Income by Education and Year_Birth
 
+---
+
 🧮 Key Measures Used
 Measure	Description
 Total Customers	DISTINCTCOUNT(ID)
@@ -67,6 +75,8 @@ Average Income	AVERAGE(Income)
 Total Purchases	Combined total of web, store, and catalog purchases
 Response Rate	DIVIDE(SUM(Response), [Total Customers])
 
+---
+
 🎨 Design & Theme
 Element	Style
 Background	Dark Blue
@@ -75,7 +85,9 @@ Accent Colors	Orange, Yellow, Green
 Font	Segoe UI (Professional Power BI Default)
 Visual Type Mix	Cards, Donuts, Gauges, Line & Bar Charts
 
-🎨 All visuals and layout were designed by Raju Keesari
+🎨 All visuals and layout were designed by Shiva Kumar Keesari
+
+---
 
 💡 Key Insights
 
@@ -87,6 +99,8 @@ Majority of the customer base lies between ages 35–55.
 
 Married customers and mid-aged graduates represent the strongest segment.
 
+---
+
 🧰 Tools & Technologies
 
 Power BI Desktop – Data modeling and dashboard design
@@ -94,6 +108,8 @@ Power BI Desktop – Data modeling and dashboard design
 DAX – Measure creation
 
 Excel / CSV – Data cleaning and preprocessing
+
+---
 
 ## 📸 Dashboard Preview
 <img width="1434" height="806" alt="Screenshot 2025-11-03 001915" src="https://github.com/user-attachments/assets/d3bb3511-2e6e-402c-91a6-9704785e3697" />
